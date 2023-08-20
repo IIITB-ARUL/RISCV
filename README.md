@@ -143,7 +143,7 @@ To use SPIKE simualtor to run risc-v obj file use the below command,
 
 After RISCV compilation  the assembly code is shown in below image,
 
-
+![Assembly](https://github.com/IIITB-ARUL/RISCV/assets/140998631/54c061f5-ba2d-4882-906b-213cd019b05a)
 
 
 
