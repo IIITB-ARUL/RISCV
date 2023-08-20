@@ -112,7 +112,7 @@ int main ()
 The command for RISCV compilation,
 
 ```
-    riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>
+    riscv64-unknown-elf-gcc <compiler option -O1 ; -Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>
 ```
 
 
@@ -130,9 +130,23 @@ To view assembly code use the below command,
 ```
     riscv64-unknown-elf-objdump -d <object filename>
 ```
-    
+
+To see the executed file in text file format,
+
  
 To use SPIKE simualtor to run risc-v obj file use the below command,
+
+```
+ riscv64-unknown-elf-objdump -d <object filename> | less
+```
+
+
+After RISCV compilation  the assembly code is shown in below image,
+
+
+
+
+
 
 
 ```
