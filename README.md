@@ -207,7 +207,7 @@ Sign Bit (Most Significant Bit, MSB): The leftmost bit.
 
  Magnitude Bits: The remaining 63 bits (from bit 1 to bit 63)
 
-     Minimum Value: The smallest representable value is -2^63, which is -9,223,372,036,854,775,808.
+Minimum Value: The smallest representable value is -2^63, which is -9,223,372,036,854,775,808.
 
-    Maximum Value: The largest representable value is 2^63 - 1, which is 9,223,372,036,854,775,807.
+Maximum Value: The largest representable value is 2^63 - 1, which is 9,223,372,036,854,775,807.
 </details>
