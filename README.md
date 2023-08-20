@@ -24,6 +24,16 @@ Function:
 ![rtl sinipptet](https://github.com/IIITB-ARUL/RISCV/assets/140998631/c802a949-4b67-43b3-bd3f-7fec674410e1)
 
 
+ The operating system also takes a particular application and convert it into respective assembly language and the convert it to the binary.  
 
-  
+The instructions in RISCV are,
+
+  > Pseudo instructions,
+  > Base integer instruction (RV64I, RV32I),
+  > Multiply extension (RV64M),
+  > Single and double floating point instruction (RV64F, RV64D),
+  > Application binary instruction,
+  > Memory allocation and stack pointer.
+
+
 </details>
