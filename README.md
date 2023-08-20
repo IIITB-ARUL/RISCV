@@ -175,6 +175,7 @@ reg 0 <register>
 
 > press enter to run next instruction 
 
+![spike](https://github.com/IIITB-ARUL/RISCV/assets/140998631/0d475ebe-e00c-454e-be0a-b2a3c56fa3f4)
 
 
 We can clearly see the content of register is changed after the execution of the instruction associated with that register.
