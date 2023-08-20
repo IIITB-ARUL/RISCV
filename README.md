@@ -37,3 +37,101 @@ The instructions in RISCV are,
 
 
 </details>
+<details>
+  <summary>
+  Labwork for RISC-V software toolchain
+  </summary>
+
+
+
+**Installation of RISCV tools**
+
+Steps to Install
+
+```
+sudo apt-get install libboost-regex-dev
+```
+Spike RISCV ISA Simulator
+
+```
+git clone https://github.com/riscv-software-src/riscv-isa-sim
+cd riscv-isa-sim
+apt-get install device-tree-compiler
+mkdir build
+cd build
+../configure --prefix=$RISCV
+make
+[sudo] make install
+```
+
+RISC-V Proxy Kernel and Boot Loader
+
+```
+git clone https://github.com/riscv-software-src/riscv-pk
+cd riscv-pk
+mkdir build
+cd build
+../configure --prefix=$RISCV --host=riscv64-unknown-elf
+make
+sudo make install
+ ```
+
+
+
+
+
+**GNU Compiler Toolchain**
+
+
+   
+
+The command for RISCV compilation,
+
+    ```
+    riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>
+    ```
+    More details on compiler options can be obtained here
+
+    To view assembly code use the below command,
+
+    ```
+    riscv64-unknown-elf-objdump -d <object filename>
+    ```
+    
+    To use SPIKE simualtor to run risc-v obj file use the below command,
+
+    ```
+    spike pk <object filename>
+    ```
+    
+    To use SPIKE as debugger
+
+    ```
+    spike -d pk <object Filename> with degub command as until pc 0 <pc of your choice>
+    ```
+
+    Lets start with compiling a c program of Summing 1 t0 n (sum1ton),
+
+    Code
+
+
+    ```
+   
+#include <stdio.h>
+
+int main () 
+{
+	int i,sum = 0, n = 5;
+	for (i = 1; i <=n; ++i) 
+ {
+		sum += i;
+	}
+	printf("The sum of the number from 1 to %d is %d\n", n,sum);
+	return 0;
+	}
+```
+
+
+
+  
+</details>
