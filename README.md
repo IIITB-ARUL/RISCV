@@ -85,37 +85,14 @@ sudo make install
 
    
 
-The command for RISCV compilation,
+
+
+Lets start with compiling a c program of Summing 1 t0 n (sum1ton),
+
+Code
+
 
 ```
-    riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>
-```
-    More details on compiler options can be obtained here
-
-    To view assembly code use the below command,
-
-    ```
-    riscv64-unknown-elf-objdump -d <object filename>
-    ```
-    
-    To use SPIKE simualtor to run risc-v obj file use the below command,
-
-    ```
-    spike pk <object filename>
-    ```
-    
-    To use SPIKE as debugger
-
-    ```
-    spike -d pk <object Filename> with degub command as until pc 0 <pc of your choice>
-    ```
-
-    Lets start with compiling a c program of Summing 1 t0 n (sum1ton),
-
-    Code
-
-
-    ```
    
 #include <stdio.h>
 
@@ -123,15 +100,49 @@ int main ()
 {
 	int i,sum = 0, n = 5;
 	for (i = 1; i <=n; ++i) 
- {
+ 	{
 		sum += i;
 	}
 	printf("The sum of the number from 1 to %d is %d\n", n,sum);
 	return 0;
-	}
+}
+ ```
+
+
+The command for RISCV compilation,
+
+```
+    riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>
 ```
 
 
 
+
+
+Here -01 gives 15 instructions set while -0fast gives us 12 instructions set.
+
+
+More details on compiler options can be obtained here
+
+To view assembly code use the below command,
+
+
+```
+    riscv64-unknown-elf-objdump -d <object filename>
+```
+    
+ 
+To use SPIKE simualtor to run risc-v obj file use the below command,
+
+
+```
+    spike pk <object filename>
+```
+    
+To use SPIKE as debugger
+
+```
+    spike -d pk <object Filename> with degub command as until pc 0 <pc of your choice>
+```
   
 </details>
