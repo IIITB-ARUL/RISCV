@@ -87,9 +87,9 @@ sudo make install
 
 The command for RISCV compilation,
 
-    ```
+```
     riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>
-    ```
+```
     More details on compiler options can be obtained here
 
     To view assembly code use the below command,
