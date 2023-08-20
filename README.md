@@ -145,18 +145,38 @@ After RISCV compilation  the assembly code is shown in below image,
 
 ![Assembly](https://github.com/IIITB-ARUL/RISCV/assets/140998631/54c061f5-ba2d-4882-906b-213cd019b05a)
 
+**Spike simulation and debugging**
 
-
-
+To execute the assembly code,
 
 ```
     spike pk <object filename>
 ```
+
+
     
 To use SPIKE as debugger
 
 ```
     spike -d pk <object Filename> with degub command as until pc 0 <pc of your choice>
 ```
+
+
+To make program counter run manually from a particular instruction 
+
+```
+ until pc 0 <address>
+```
+To look into the content of the register
+
+```
+reg 0 <register>
+```
+
+> press enter to run next instruction 
+
+
+
+We can clearly see the content of register is changed after the execution of the instruction associated with that register.
   
 </details>
