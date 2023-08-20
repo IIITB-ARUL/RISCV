@@ -191,6 +191,8 @@ We can clearly see the content of register is changed after the execution of the
 	</summary>
 This section suummarizes the representation of integer number in the processor.Humans understands the decimal numbers where as computers understand binary numbers.The interface between the conversion has to be addressed.By undrstanding this we come to know how the data instruction is getting arranged in the memory.
 
+![number representation ](https://github.com/IIITB-ARUL/RISCV/assets/140998631/449e414d-39f7-4c30-817e-ad00f33a391d)
+
 
 
 **Unsigned integer**
@@ -210,4 +212,5 @@ Sign Bit (Most Significant Bit, MSB): The leftmost bit.
 Minimum Value: The smallest representable value is -2^63, which is -9,223,372,036,854,775,808.
 
 Maximum Value: The largest representable value is 2^63 - 1, which is 9,223,372,036,854,775,807.
+
 </details>
