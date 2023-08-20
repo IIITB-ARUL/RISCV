@@ -181,3 +181,33 @@ reg 0 <register>
 We can clearly see the content of register is changed after the execution of the instruction associated with that register.
   
 </details>
+
+
+
+
+<details>
+	<summary>
+		Integer number representation 
+	</summary>
+This section suummarizes the representation of integer number in the processor.Humans understands the decimal numbers where as computers understand binary numbers.The interface between the conversion has to be addressed.By undrstanding this we come to know how the data instruction is getting arranged in the memory.
+
+
+
+**Unsigned integer**
+
+Unsigned integers are a type of data representation used in computer programming to store whole numbers that are non-negative (i.e., greater than or equal to zero).
+
+The largest value you can represent with a 64-bit unsigned integer is 2^64 - 1, which is equal to 18,446,744,073,709,551,615. This is because you have 64 bits, and when all bits are set to 1, you get the maximum possible value.
+
+
+**Signed integer**
+A signed integer is a data type used in computer programming to represent whole numbers that can include both positive and negative values. 
+
+Sign Bit (Most Significant Bit, MSB): The leftmost bit.
+
+ Magnitude Bits: The remaining 63 bits (from bit 1 to bit 63)
+
+     Minimum Value: The smallest representable value is -2^63, which is -9,223,372,036,854,775,808.
+
+    Maximum Value: The largest representable value is 2^63 - 1, which is 9,223,372,036,854,775,807.
+</details>
