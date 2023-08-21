@@ -237,13 +237,32 @@ Code
 ```
 #include <stdio.h>
 #include <math.h>
-int main(){
-long long int max = (long long int) (pow(2,63) * -1);
-printf("highest number represented by long long int is %lld\n", max);
-return 0;
+int main()
+{
+    long long int max = (long long int)(pow(2,63)-1);        
+    long long int min = (long long int)(pow(2,63) * -1);     
+    printf("highest number represented by long long int is %lld\n",max);
+    printf("lowest number represented by long long int is %lld\n",min);
+    return 0;
 }
 ```
 ![signed](https://github.com/IIITB-ARUL/RISCV/assets/140998631/897acd31-bc0a-405a-9dc0-74dc6a43e1c0)
 
 
+</details>
+
+
+
+
+## Day 2 - Introduction to ABI and basic verification flow
+
+<details>
+	<summary>
+		Application Binary interface (ABI)
+	</summary>
+
+
+
+
+ 
 </details>
