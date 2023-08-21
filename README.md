@@ -352,5 +352,6 @@ You can see from these images that 5 bits are used to represent registers.Becaus
 
  The **Algorithm** for the same is shown below
 
+![algo](https://github.com/IIITB-ARUL/RISCV/assets/140998631/7c92cb78-c39e-4c9c-a225-cb93f55881d1)
  
 </details>
