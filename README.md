@@ -443,3 +443,16 @@ firmware32.hex:
 ![32hex](https://github.com/IIITB-ARUL/RISCV/assets/140998631/d83ff03a-2bde-4402-bd7e-01b123d4ed60)
 
 </details>
+
+# Day 3- Digital Logic with TL-Verilog and Makerchip
+
+<details>
+	<summary>
+		Introduction to logic gates
+	</summary>
+
+Logic gates are fundamental building blocks in digital circuitry and electronics. They are used to perform logical operations on input signals, which are typically binary (0 or 1). Logic gates are combined to create more complex circuits and systems, ultimately enabling the creation of digital devices like computers, smartphones, and other electronic device.
+
+
+ 
+</details>
