@@ -264,7 +264,15 @@ An Application Binary Interface (ABI) is a set of conventions and rules that dic
 
 
 
+![ABI levels2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/c8b22c54-4c2a-424b-a9ed-2aac3b5ff7fd)
 
+**Registers**
+
+Lets assume XLEN is 64 bit as we are going to with RV64 throughout this course.There are two ways to load data in the registers one is directly and the othter is loaded from the memory.Memory are byte addressable.
+
+In the above image the least significant byte is stored at the bottom and the most significant byte is stored in the top.This structure of memory addressing is known as **Little endian memory addressing system**.The RISCV architecture follows this memory addressing system.
+
+There is another memory addressing system **Big endian** which is the reverse of little endian.
 
 
  
