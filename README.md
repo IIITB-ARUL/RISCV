@@ -260,7 +260,11 @@ int main()
 		Application Binary interface (ABI)
 	</summary>
 
-An Application Binary Interface (ABI) is a set of conventions and rules that dictate how different software components interact at the binary level. The ABI defines how function calls are made, how parameters are passed to functions, and how return values are retrieved. This includes aspects such as the order in which parameters are passed, the use of registers and the stack, and how the stack is managed during function calls.It defines how user-level applications interact with the operating system through system calls and other APIs.
+An Application Binary Interface (ABI) is a set of conventions and rules that dictate how different software components interact at the binary level. The ABI defines how function calls are made, how parameters are passed to functions, and how return values are retrieved. This includes aspects such as the order in which parameters are passed, the use of registers and the stack, and how the stack is managed during function calls.It defines how user-level applications interact with the operating system through system calls and other APIs.When software developers create compilers, libraries, and system software, they need to adhere to the ABI to ensure that their code can work seamlessly with other components in the system.
+
+
+
+
 
 
  
