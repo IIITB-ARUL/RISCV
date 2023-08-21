@@ -338,7 +338,7 @@ The 32 bit representation of the instruction
 
 You can see from these images that 5 bits are used to represent registers.Because RISCV has only 32 registers(x0 to x31).Application Binary interface (ABI) system calls through these registers by some internal names assigned by RISCV which are listed below
 
-
+![32reg](https://github.com/IIITB-ARUL/RISCV/assets/140998631/f80f3dcb-75d0-431a-a495-9c9c4463b6c9)
 
 
 </details>
