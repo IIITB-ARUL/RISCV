@@ -410,10 +410,25 @@ riscv64-unknown-elf-objdump -d custom1_to9.o | less
 
 <details>
 	<summary>
-		Lab To Run C-Program On RISC-V CPU
+		Basic verification flow using iverilog
 	</summary>
 
+**Lab To Run C-Program On RISC-V CPU**
+
+![labtorun con riscv](https://github.com/IIITB-ARUL/RISCV/assets/140998631/51a1a542-98eb-49c8-8f62-eed00176b8b6)
+
+ Demo lab for the above shown flow,
+
+```
+cd ~/riscv_workshop_collaterals/labs/
+chmod 777 rv32im.sh # this command gives the permission 
+./rv32im.sh
+```
+
+The rv32im.sh is the shell script which runs the following command to convert the c program into hex file bitstream and simulate and load the hex file into picorv.32 using iverilog
 
 
- 
+
+
+
 </details>
