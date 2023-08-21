@@ -266,15 +266,30 @@ An Application Binary Interface (ABI) is a set of conventions and rules that dic
 
 ![ABI levels2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/c8b22c54-4c2a-424b-a9ed-2aac3b5ff7fd)
 
+**Memory allocation for double words**
+
 **Registers**
+
+In computer architecture and assembly language programming, registers are small, fast storage locations within the CPU (Central Processing Unit) that are used to hold data that is being actively operated on. These registers are an integral part of the processor and play a crucial role in the execution of instructions and data manipulation
 
 Lets assume XLEN is 64 bit as we are going to with RV64 throughout this course.There are two ways to load data in the registers one is directly and the othter is loaded from the memory.Memory are byte addressable.
 
 ![memory'](https://github.com/IIITB-ARUL/RISCV/assets/140998631/ce4d1849-73b4-41ef-8e28-1eb9fc7374f2)
 
-In the above image the least significant byte is stored at the bottom and the most significant byte is stored in the top.This structure of memory addressing is known as **Little endian memory addressing system**.The RISCV architecture follows this memory addressing system.
+In the above image the least significant byte is stored at the bottom of memory and the most significant byte is stored in the top.This structure of memory addressing is known as **Little endian memory addressing system**.The RISCV architecture follows this memory addressing system.
 
 There is another memory addressing system **Big endian** which is the reverse of little endian.
+
+
+**Load,Add And Store Instructions**
+
+
+
+Now lets explore some instructions,
+
+```
+ld 
+
 
 
  
