@@ -227,6 +227,7 @@ return 0;
 }
 
 ```
+![unsigned](https://github.com/IIITB-ARUL/RISCV/assets/140998631/f046a7ae-cda9-400c-8a58-657686c0ca4e)
 
 
 **Lab on signed integer**
@@ -242,6 +243,7 @@ printf("highest number represented by long long int is %lld\n", max);
 return 0;
 }
 ```
+![signed](https://github.com/IIITB-ARUL/RISCV/assets/140998631/897acd31-bc0a-405a-9dc0-74dc6a43e1c0)
 
 
 </details>
