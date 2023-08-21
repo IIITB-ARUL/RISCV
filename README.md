@@ -398,6 +398,8 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o custom1_to9.o custom1_
 spike pk custom1_to9.o
 riscv64-unknown-elf-objdump -d custom1_to9.o | less
 ```
+![compilation1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/60b58aef-e9c1-4008-a5a4-3871b7823521)
+![spike1to9](https://github.com/IIITB-ARUL/RISCV/assets/140998631/372c9fd2-2728-4a36-91e8-10dc4cd40d93)
 
 
  
