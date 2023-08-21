@@ -342,3 +342,15 @@ You can see from these images that 5 bits are used to represent registers.Becaus
 
 
 </details>
+<details>
+	<summary>
+	 Lab work using ABI function calls
+	</summary>
+
+
+ In this lab we are going to modify the c prgram and make function call through c program to; assembly language program.i.e.,arguments are passed through registers and after execution the return value is retrieved through registers.
+
+ The **Algorithm** for the same is shown below
+
+ 
+</details>
