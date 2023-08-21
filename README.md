@@ -288,7 +288,31 @@ There is another memory addressing system **Big endian** which is the reverse of
 Now lets explore some instructions,
 
 ```
-ld 
+ld x8, 16(x23)
+```
+
+here ld means **load doubleword** which loads the data from the memory **(address: 16(offest or immediate)+ x23(content of source register)** into x8 **destination register**.
+
+The 32 bit representation of the instruction
+
+
+
+
+```
+add x8, x24,x8
+```
+
+here **add** means addition operation of operands **x24,x8 (source registers)** and stored into destination register **x8**.
+
+The 32 bit representation of the instruction
+
+
+```
+sd x8, 8(x23)
+```
+here sd means **store doubleword** which stores back the **content of register x8**  into memory **(address: 8(offest or immediate)+ x23(content of source register)**
+
+The 32 bit representation of the instruction
 
 
 
