@@ -453,6 +453,15 @@ firmware32.hex:
 
 Logic gates are fundamental building blocks in digital circuitry and electronics. They are used to perform logical operations on input signals, which are typically binary (0 or 1). Logic gates are combined to create more complex circuits and systems, ultimately enabling the creation of digital devices like computers, smartphones, and other electronic device.
 
+![logicgate](https://github.com/IIITB-ARUL/RISCV/assets/140998631/7a97a6c1-0b37-4894-8d45-88b7469597cd)
 
+Here **NAND** and **NOR** are universal logic gates.Using these gates any kind of logic can be realized.
+
+
+
+**Makerchip**
+Makerchip" refers to an online Integrated Development Environment (IDE) that enables users to design, simulate, and verify digital circuits and systems.
+The IDE allows users to simulate their designs, providing a way to test and debug their circuits before implementation.Users can visualize the behavior of their designs using waveform viewers, which display the changing signal values over time.
+Makerchip  can be used for educational purposes to teach digital logic design and related concepts.
  
 </details>
