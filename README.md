@@ -427,8 +427,19 @@ chmod 777 rv32im.sh # this command gives the permission
 
 The rv32im.sh is the shell script which runs the following command to convert the c program into hex file bitstream and simulate and load the hex file into picorv.32 using iverilog
 
+![rvsim](https://github.com/IIITB-ARUL/RISCV/assets/140998631/0aa4ab39-29b8-4413-a39d-c2806f7e8fb3)
+
+After running the shell script,
+
+![op](https://github.com/IIITB-ARUL/RISCV/assets/140998631/f5ce1eee-f460-4040-a929-dbeb053d478c)
 
 
+firmware.hex:
 
+![hex](https://github.com/IIITB-ARUL/RISCV/assets/140998631/f2ca3205-66fb-4d62-8978-e4fe65928c0e)
+
+firmware32.hex:
+
+![32hex](https://github.com/IIITB-ARUL/RISCV/assets/140998631/d83ff03a-2bde-4402-bd7e-01b123d4ed60)
 
 </details>
