@@ -329,12 +329,16 @@ The 32 bit representation of the instruction
  This RV64I is divided into three types:
 
  I-type: Instructions operate on destination registers and immediate.
+
  R-type: Instructions operate only on registers.
+ 
  S-type: Instructions operatae on immediate and source registers.
 
  
 
-You from these images that 5 bits are used to represent registers.Because RISCV has only 32 registers(x0 to x31).Application Binary interface (ABI) system calls through these registers by some internal names assigned by RISCV which are listed below
+You can see from these images that 5 bits are used to represent registers.Because RISCV has only 32 registers(x0 to x31).Application Binary interface (ABI) system calls through these registers by some internal names assigned by RISCV which are listed below
+
+
 
 
 </details>
