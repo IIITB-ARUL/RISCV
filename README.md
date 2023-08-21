@@ -328,11 +328,11 @@ The 32 bit representation of the instruction
 
  This RV64I is divided into three types:
 
- I-type: Instructions operate on destination registers and immediate.
+ **I-type**: Instructions operate on destination registers and immediate.
 
- R-type: Instructions operate only on registers.
+ **R-type**: Instructions operate only on registers.
  
- S-type: Instructions operatae on immediate and source registers.
+ **S-type**: Instructions operatae on immediate and source registers.
 
  
 
