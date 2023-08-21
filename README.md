@@ -350,8 +350,51 @@ You can see from these images that 5 bits are used to represent registers.Becaus
 
  In this lab we are going to modify the c prgram and make function call through c program to; assembly language program.i.e.,arguments are passed through registers and after execution the return value is retrieved through registers.
 
+
+Lets take a simple Assembly language program of consecutive sum of 1 to 9 by using C function call,
+ 
+
  The **Algorithm** for the same is shown below
 
 ![algo](https://github.com/IIITB-ARUL/RISCV/assets/140998631/7c92cb78-c39e-4c9c-a225-cb93f55881d1)
+
+C Code
+
+```
+#include <stdio.h>
+extern int load(int x,int y);
+int main()
+ {
+ 	int result = 0;
+	int count =9;
+ 	result = load(0x0,count+1);
+ 	printf("Sum of numbers from 1 to %d is %d\n",count,result);
+ }
+```
+Assembly language Code 
+
+```
+.section .text
+.global load
+.type load, @function
+
+load: 
+     add   a4,a0,zero    //initialize sum register a4 with 0x0
+     add   a2,a0,a1      //store count of 10 in reg a. reg a1 is loaded with 0xa(decimal 10) from main
+     add   a3,a0,zero    //initialize intermediate sum reg a3 by 0x0
+
+loop:
+ add   a4,a3,a4     // Incremental addition
+     addi  a3,a3,1      // Increment intermediate register by 1
+     blt   a3,a2,loop   // If a3 is less than a2,branch to label <loop> 
+     add   a0,a4,zero   // store final result to reg a0 so that it can be read by main pgm
+     ret
+```
+The process of executing the above written code,
+
+
+
+
+
  
 </details>
