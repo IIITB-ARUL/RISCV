@@ -246,8 +246,7 @@ int main()
     return 0;
 }
 ```
-![signed](https://github.com/IIITB-ARUL/RISCV/assets/140998631/897acd31-bc0a-405a-9dc0-74dc6a43e1c0)
-
+![signed1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/2a55257d-bb89-4171-a8b2-cdd3bfb62f52)
 
 </details>
 
