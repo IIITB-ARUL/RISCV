@@ -213,4 +213,35 @@ Minimum Value: The smallest representable value is -2^63, which is -9,223,372,03
 
 Maximum Value: The largest representable value is 2^63 - 1, which is 9,223,372,036,854,775,807.
 
+**Lab on unsigned integer**
+
+Code
+
+```
+#include <stdio.h>
+#include <math.h>
+int main() {
+unsigned long long int max = (unsigned long long int) (pow(2,64) -1);
+printf("highest number represented by unsigned long long int is %llu\n", max);
+return 0;
+}
+
+```
+
+
+**Lab on signed integer**
+
+Code
+
+```
+#include <stdio.h>
+#include <math.h>
+int main(){
+long long int max = (long long int) (pow(2,63) * -1);
+printf("highest number represented by long long int is %lld\n", max);
+return 0;
+}
+```
+
+
 </details>
