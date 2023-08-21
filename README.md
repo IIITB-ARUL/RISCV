@@ -390,10 +390,14 @@ loop:
      add   a0,a4,zero   // store final result to reg a0 so that it can be read by main pgm
      ret
 ```
-The process of executing the above written code,
+The steps to simulate the above written code,
 
 
-
+```
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o custom1_to9.o custom1_to_9.c load.S
+spike pk custom1_to9.o
+riscv64-unknown-elf-objdump -d custom1_to9.o | less
+```
 
 
  
