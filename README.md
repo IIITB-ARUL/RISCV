@@ -295,6 +295,7 @@ here ld means **load doubleword** which loads the data from the memory **(addres
 
 The 32 bit representation of the instruction
 
+![instruction ](https://github.com/IIITB-ARUL/RISCV/assets/140998631/f8d9812d-e34d-4531-8045-92bdd6cd03b4)
 
 
 
@@ -306,6 +307,8 @@ here **add** means addition operation of operands **x24,x8 (source registers)** 
 
 The 32 bit representation of the instruction
 
+![add](https://github.com/IIITB-ARUL/RISCV/assets/140998631/2db55c90-c9c4-4fea-a055-fbf660e61fdd)
+
 
 ```
 sd x8, 8(x23)
@@ -315,6 +318,7 @@ here sd means **store doubleword** which stores back the **content of register x
 The 32 bit representation of the instruction
 
 
+![sd](https://github.com/IIITB-ARUL/RISCV/assets/140998631/2e37b991-691a-452f-9793-fdcf4ad28322)
 
  
 </details>
