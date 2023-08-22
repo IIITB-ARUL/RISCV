@@ -545,12 +545,51 @@ Fibonacci series is a number is the sum of its previous two numbers, ie. 1,1,2,3
 **Free running counter**
 
 
+![counter1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/a0a85087-f06a-4048-ac01-c31dfc2f1205)
+
+The above chip is implemented using  makerchip.
+
+![counter2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/083f839c-167b-4635-bfce-1e2c6f8ad7c5)
 
 
 
 **Sequential calculator**
 
+![sequentialcounter](https://github.com/IIITB-ARUL/RISCV/assets/140998631/4e314cee-0dc5-40b7-858d-426a84336c52)
+
+
+The above circuit is implemented in the Makerchip.
+
+TL verilog code 
+
+```
+   $reset = *reset;
+
+   $val1[31:0] = >>1$out[31:0];
+   $val2[31:0] = $rand2[3:0];
+   
+   $sum[31:0] = $val1 + $val2;
+   $diff[31:0] = $val1 - $val2;
+   $prod[31:0] = $val1 * $val2;
+   $quot[31:0] = $val1 / $val2;
+   
+   $out[31:0] = $reset ? 0 : ($op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum ));
+   
+```
+
+
+ ![sequentialcalc](https://github.com/IIITB-ARUL/RISCV/assets/140998631/33d1e5e0-7dc7-4414-a899-fa80f2e176b1)
+
+
+</details>
+
+
+<details>
+	<summary>
+		Pipeling
+	</summary>
+
+
 
  
-
 </details>
