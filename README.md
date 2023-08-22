@@ -537,6 +537,20 @@ A sequential circuit is an electronic circuit that uses memory elements to store
 
 **Example - Fibonacci series**
 
+Fibonacci series is a number is the sum of its previous two numbers, ie. 1,1,2,3,5,8,13,
+
  ![fibonacci 1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/92a0a78d-bb24-45df-b159-013a008368df)
+
+
+**Free running counter**
+
+
+
+
+
+**Sequential calculator**
+
+
+ 
 
 </details>
