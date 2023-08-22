@@ -478,7 +478,28 @@ A combinational circuit is an electronic circuit that performs a specific logica
 
 **Inverter**
 
+![Inverter](https://github.com/IIITB-ARUL/RISCV/assets/140998631/157d3697-1638-4fa2-8bac-fbc564bf5df4)
+![EXOR](https://github.com/IIITB-ARUL/RISCV/assets/140998631/e0e7c859-0cc1-43e3-ace5-7d7e61e4b6bf)
+![mux](https://github.com/IIITB-ARUL/RISCV/assets/140998631/9fb25b5b-c6d4-47a3-8fdc-0d2bf581b732)
+![muxvectors](https://github.com/IIITB-ARUL/RISCV/assets/140998631/fe5edc03-700d-485f-a692-93704c6cd8c5)
 
+
+**Calculator**
+
+TL verilog code
+
+```
+   
+$val1[31:0] = $rand1[3:0];
+$val2[31:0] = $rand2[3:0];
+   
+$sum[31:0] = $val1 + $val2;
+$diff[31:0] = $val1 - $val2;
+$prod[31:0] = $val1 * $val2;
+$quot[31:0] = $val1 / $val2;
+   
+$out[31:0] = $op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum ); 
+```
 
  
 </details>
