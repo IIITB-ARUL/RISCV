@@ -457,11 +457,28 @@ Logic gates are fundamental building blocks in digital circuitry and electronics
 
 Here **NAND** and **NOR** are universal logic gates.Using these gates any kind of logic can be realized.
 
+ 
+</details>
+
+<details>
+	<summary>
+		Labs on combinational circuit
+	</summary>
 
 
 **Makerchip**
+
 Makerchip" refers to an online Integrated Development Environment (IDE) that enables users to design, simulate, and verify digital circuits and systems.
 The IDE allows users to simulate their designs, providing a way to test and debug their circuits before implementation.Users can visualize the behavior of their designs using waveform viewers, which display the changing signal values over time.
 Makerchip  can be used for educational purposes to teach digital logic design and related concepts.
+
+**Combinational circutis**
+
+A combinational circuit is an electronic circuit that performs a specific logical operation based on its input values. It produces output(s) solely dependent on the current input values, without any memory or feedback. In other words, the output is a direct function of the input, and there is no internal state or memory elements like flip-flops.
+
+**Inverter**
+
+
+
  
 </details>
