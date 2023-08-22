@@ -589,7 +589,33 @@ TL verilog code
 		Pipeling
 	</summary>
 
+Pipelining is a technique used in computer architecture to improve the overall throughput and efficiency of instruction processing. It involves breaking down the execution of instructions into a series of stages, where each stage performs a specific operation on an instruction. By overlapping the execution of multiple instructions in different stages, pipelining can increase the overall instruction throughput and reduce the time it takes to complete a sequence of instructions.
+
+The stages in a typical instruction pipeline might include:
+
+    1.Instruction Fetch (IF): Fetches the instruction from memory.
+    
+    2.Instruction Decode (ID): Decodes the fetched instruction to determine the necessary operations.
+    
+    3.Execute (EX): Performs the actual computation or operation specified by the instruction.
+    
+    4.Memory Access (MEM): If needed, accesses memory to read or write data.
+    
+    5.Write Back (WB): Writes the results of the execution back to registers.
+
+
 
 
  
 </details>
+
+
+
+## References
+- https://github.com/kunalg123
+- https://github.com/stevehoover/RISC-V_MYTH_Workshop
+- https://www.vsdiat.com/
+- https://makerchip.com/
+- https://github.com/riscv/riscv-gnu-toolchain
+- https://github.com/alwinshaju08/RISCV
+- https://github.com/mrdunker/RISC-V_based_MYTH_IIITB
