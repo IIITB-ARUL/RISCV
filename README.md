@@ -521,5 +521,15 @@ $out[31:0] = $op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum );
 ```
 ![calc2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/8d09b701-9e72-43c4-9c30-757aa404ef96)
 
+</details>
+
+
+<details>
+	<summary>
+		Labs on Sequential logic
+	</summary>
+
+
+
  
 </details>
