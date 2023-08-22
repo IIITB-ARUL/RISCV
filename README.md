@@ -593,15 +593,15 @@ Pipelining is a technique used in computer architecture to improve the overall t
 
 The stages in a typical instruction pipeline might include:
 
-    1.Instruction Fetch (IF): Fetches the instruction from memory.
+1.Instruction Fetch (IF): Fetches the instruction from memory.
     
-    2.Instruction Decode (ID): Decodes the fetched instruction to determine the necessary operations.
+2.Instruction Decode (ID): Decodes the fetched instruction to determine the necessary operations.
     
-    3.Execute (EX): Performs the actual computation or operation specified by the instruction.
+3.Execute (EX): Performs the actual computation or operation specified by the instruction.
     
-    4.Memory Access (MEM): If needed, accesses memory to read or write data.
+4.Memory Access (MEM): If needed, accesses memory to read or write data.
     
-    5.Write Back (WB): Writes the results of the execution back to registers.
+5.Write Back (WB): Writes the results of the execution back to registers.
 
 
 
