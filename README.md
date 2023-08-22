@@ -479,8 +479,6 @@ A combinational circuit is an electronic circuit that performs a specific logica
 **Inverter**
 
 ![Inverter](https://github.com/IIITB-ARUL/RISCV/assets/140998631/157d3697-1638-4fa2-8bac-fbc564bf5df4)
-![mux](https://github.com/IIITB-ARUL/RISCV/assets/140998631/9fb25b5b-c6d4-47a3-8fdc-0d2bf581b732)
-![muxvectors](https://github.com/IIITB-ARUL/RISCV/assets/140998631/fe5edc03-700d-485f-a692-93704c6cd8c5)
 
 **Exor**
 
@@ -488,10 +486,26 @@ A combinational circuit is an electronic circuit that performs a specific logica
 
 **And**
 
+![And](https://github.com/IIITB-ARUL/RISCV/assets/140998631/f59ff6e7-8a1b-49e6-a476-541b38e3dca6)
+
+**2:1 Mux**
+
+![mux](https://github.com/IIITB-ARUL/RISCV/assets/140998631/9fb25b5b-c6d4-47a3-8fdc-0d2bf581b732)
+
+**Vectors**
+
+![muxvectors](https://github.com/IIITB-ARUL/RISCV/assets/140998631/fe5edc03-700d-485f-a692-93704c6cd8c5)
+
+
 
 **Calculator**
 
-TL verilog code
+
+![calc1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/8db11946-ddf3-44f7-846a-3721c6441e7d)
+
+
+
+TL verilog code for the above shown calculator
 
 ```
    
@@ -505,6 +519,7 @@ $quot[31:0] = $val1 / $val2;
    
 $out[31:0] = $op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum ); 
 ```
+![calc2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/8d09b701-9e72-43c4-9c30-757aa404ef96)
 
  
 </details>
