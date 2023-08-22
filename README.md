@@ -532,7 +532,11 @@ $out[31:0] = $op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum );
 
 A sequential circuit is an electronic circuit that uses memory elements to store information, allowing it to have an internal state and exhibit behavior that depends not only on the current inputs but also on the previous inputs and internal state. Unlike combinational circuits, which produce outputs based only on current inputs, sequential circuits have feedback loops and can maintain state over time.
 
+![sequentialckt](https://github.com/IIITB-ARUL/RISCV/assets/140998631/02f2f1ba-06a2-496a-9d7d-b69833198d0f)
+
 
 **Example - Fibonacci series**
- 
+
+ ![fibonacci 1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/92a0a78d-bb24-45df-b159-013a008368df)
+
 </details>
