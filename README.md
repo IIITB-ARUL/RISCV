@@ -626,6 +626,13 @@ We can clearly see from the above image that **TL verilog** prominently helps us
 
  **Pipelined Pythogorean implementaion**
 
+
+![pipelined2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/8f496b36-0f2f-407f-8145-9c7100f0db8e)
+
+
+**Fibonacci series in pipeline**
+
+
  
 </details>
 
