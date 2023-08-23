@@ -586,7 +586,7 @@ TL verilog code
 
 <details>
 	<summary>
-		Pipeling
+		Pipelining
 	</summary>
 
 Pipelining is a technique used in computer architecture to improve the overall throughput and efficiency of instruction processing. It involves breaking down the execution of instructions into a series of stages, where each stage performs a specific operation on an instruction. By overlapping the execution of multiple instructions in different stages, pipelining can increase the overall instruction throughput and reduce the time it takes to complete a sequence of instructions.
