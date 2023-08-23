@@ -642,6 +642,10 @@ Makerchip implementation of the same
 
 ![makerchipfibo](https://github.com/IIITB-ARUL/RISCV/assets/140998631/071a59d9-dee2-4ce3-8033-68fb67d55a3c)
 
+
+
+**Implementation of given pipelined structure**
+
  
 </details>
 
