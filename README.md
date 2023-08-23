@@ -630,8 +630,17 @@ We can clearly see from the above image that **TL verilog** prominently helps us
 ![pipelined2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/8f496b36-0f2f-407f-8145-9c7100f0db8e)
 
 
+
+![identifiers](https://github.com/IIITB-ARUL/RISCV/assets/140998631/e94c4aac-f03c-4edb-b2a2-fd797c8b4aa6)
+
+
 **Fibonacci series in pipeline**
 
+![fibopipe](https://github.com/IIITB-ARUL/RISCV/assets/140998631/92b70257-5999-45ca-84b8-1a9b5f2e82bf)
+
+Makerchip implementation of the same
+
+![makerchipfibo](https://github.com/IIITB-ARUL/RISCV/assets/140998631/071a59d9-dee2-4ce3-8033-68fb67d55a3c)
 
  
 </details>
