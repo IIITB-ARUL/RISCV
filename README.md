@@ -604,8 +604,27 @@ The stages in a typical instruction pipeline might include:
 5.Write Back (WB): Writes the results of the execution back to registers.
 
 
+![pipe1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/be0ed871-af45-4989-9f6d-945b950dfa16)
 
 
+![pipe2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/0fa9f70e-c94b-4a8a-88b6-afb67ca21831)
+
+
+
+
+![pipe4](https://github.com/IIITB-ARUL/RISCV/assets/140998631/39b5dcbe-a9be-498a-87c0-289d42f7fa9c)
+
+
+The stage of operation of the function can be modified without impacting the behaviour of that function.Only the timing in  the implementation may vary but it helps us to get a high throughput.
+
+
+
+![pipe5](https://github.com/IIITB-ARUL/RISCV/assets/140998631/5cd79ce2-9e15-4931-913c-1f7347ef95cb)
+
+We can clearly see from the above image that **TL verilog** prominently helps us in code reduction.
+
+
+ **Pipelined Pythogorean implementaion**
 
  
 </details>
