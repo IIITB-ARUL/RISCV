@@ -650,11 +650,57 @@ Makerchip implementation of the same
 
 **Lab 1 : Calculator**
 
+![lab1calc](https://github.com/IIITB-ARUL/RISCV/assets/140998631/d3984008-a95b-43d3-aada-86d5d30842a4)
+
+Implementation in makerchip
+
+TL verilog code
+
+```
+@1
+         $reset = *reset;
+         $val1[31:0] = >>1$out[31:0];
+         $val2[31:0] = $rand2[3:0];
+         $sum[31:0] = $val1 + $val2;
+         $diff[31:0] = $val1 - $val2;
+         $prod[31:0] = $val1 * $val2;
+         $quot[31:0] = $val1 / $val2;
+         $out[31:0] = $reset ? 0 : ($op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum ));
+         
+         $count[31:0] =$reset ? 0 : (>>1$count + 1);
+```
+
+![lab1calc](https://github.com/IIITB-ARUL/RISCV/assets/140998631/a6c66f6a-5569-404c-b992-249cbe019e8d)
 
 
 **Lab 2 : 2 Stage Calculator**
 
- 
+ ![lab2calc](https://github.com/IIITB-ARUL/RISCV/assets/140998631/a08b6ab9-e047-4905-af6b-dd1f02f73234)
+
+ Implementation in makerchip
+
+TL verilog code
+
+```
+|calc
+      @1
+         $reset = *reset;
+         $val1[31:0] = >>1$out[3:0];
+         $val2[31:0] = $rand2[3:0];
+         $sum[31:0] = $val1 + $val2;
+         $diff[31:0] = $val1 - $val2;
+         $prod[31:0] = $val1 * $val2;
+         $quot[31:0] = $val1 / $val2;
+         $valid[31:0] = $reset ? 0 : (>>1$valid + 1);
+         
+      @2
+         $out[31:0] = ($reset | ~($valid)) ? 0 : ($op[0] ? ( $op[1] ? $quot : $diff ) : ( $op[1] ? $prod : $sum ));
+         
+```
+
+ ![lab2calc](https://github.com/IIITB-ARUL/RISCV/assets/140998631/7bd47505-41c5-4094-8ec8-741aa19da9de)
+
+
 </details>
 
 
