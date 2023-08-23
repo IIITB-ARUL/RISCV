@@ -606,6 +606,7 @@ The stages in a typical instruction pipeline might include:
 
 
 
+
  
 </details>
 
