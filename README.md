@@ -646,6 +646,14 @@ Makerchip implementation of the same
 
 **Implementation of given pipelined structure**
 
+![givenpippe](https://github.com/IIITB-ARUL/RISCV/assets/140998631/8fc74590-c73f-4bde-9b79-a9085cb2f26c)
+
+**Lab 1 : Calculator**
+
+
+
+**Lab 2 : 2 Stage Calculator**
+
  
 </details>
 
