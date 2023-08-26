@@ -707,6 +707,48 @@ TL verilog code
 	<summary>
 		Valitidy
 	</summary>
+
+
+  In Transaction-Level Verilog (TL-Verilog), which is an extension of the Verilog hardware description language (HDL), "validity" refers to the concept of indicating whether a piece of data is valid or not. TL-Verilog is designed to facilitate high-level modeling and rapid design entry, particularly for transaction-level modeling.
+
+
+
+
+**Clock gating**
+
+Clock gating is a power-saving technique used in digital circuit design to reduce dynamic power consumption by selectively controlling the clock signal to specific circuit elements or modules. The primary goal of clock gating is to save power by stopping the clock signal from reaching parts of the circuit that are not currently active or performing useful computation
+
+The basic idea behind clock gating is to insert logic gates (typically AND or OR gates) between the clock source and the destination registers or logic elements. These gates act as switches that allow the clock signal to pass through only when a certain condition is met. If the condition is not satisfied, the clock signal is effectively "gated" or blocked from reaching the destination, preventing unnecessary clock cycles and power consumption.
+
+
+  However, clock gating isn't always straightforward. If implemented incorrectly, it can introduce additional delay into the circuit, impacting performance. Additionally, managing clock domains and ensuring proper synchronization between clock-gated and non-clock-gated regions can be complex.
+
+
+
+
+
+  **Lab Distance calculator**
+
+
+TL veriog code
+
+
+  ```
+    |calc
+      @1
+         $reset = *reset;
+      ?$valid
+         @1
+            $aa_sq[31:0] = $aa[3:0] * $aa;
+            $bb_sq[31:0] = $bb[3:0] * $bb;
+         @2
+            $cc_sq[31:0] = $aa_sq + $bb_sq;
+         @3
+            $out[31:0] = sqrt($cc_sq);
+       @4
+          $tot_dist[31:0] = $reset ? '0 : ($valid ? (>>1$tot_dist + $out) : $RETAIN);
+
+```
 </details>
 
 
