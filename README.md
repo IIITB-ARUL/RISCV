@@ -761,7 +761,21 @@ TL veriog code
 ![distance](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3bfe12e6-2166-41fa-a623-825fb842a017)
 
 
+
+
+**Lab 2Cycle calculator**
+
+![2cyle](https://github.com/IIITB-ARUL/RISCV/assets/140998631/30d3c537-4bdd-4a9e-a617-f1e2a1b03207)
+
+![2cycle1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/ab9fd170-1d8f-4b3c-87bb-96be45a6b349)
+
+
+
+
 **Lab Calculator with Single value memory**
+
+
+![singlevaluememory](https://github.com/IIITB-ARUL/RISCV/assets/140998631/77f6e3b2-e8bb-4719-b3d4-62a7a9970118)
 
 
 
@@ -799,6 +813,12 @@ TL verilog code
                           ($op[2:0] == 3'b100) ? >>2$mem : >>2$out ;
 
 ```
+
+
+
+![value memory](https://github.com/IIITB-ARUL/RISCV/assets/140998631/02d2b986-3d1d-475f-a9b9-b4fd993049e4)
+
+
 
 </details>
 
