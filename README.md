@@ -701,6 +701,8 @@ TL verilog code
  ![lab2calc](https://github.com/IIITB-ARUL/RISCV/assets/140998631/7bd47505-41c5-4094-8ec8-741aa19da9de)
 
 
+
+
 </details>
 
 <details>
@@ -710,6 +712,9 @@ TL verilog code
 
 
   In Transaction-Level Verilog (TL-Verilog), which is an extension of the Verilog hardware description language (HDL), "validity" refers to the concept of indicating whether a piece of data is valid or not. TL-Verilog is designed to facilitate high-level modeling and rapid design entry, particularly for transaction-level modeling.
+
+  ![validity](https://github.com/IIITB-ARUL/RISCV/assets/140998631/dcc2e5b4-0d65-4f02-a7cc-6723d9ad36e8)
+
 
 
 
@@ -722,6 +727,9 @@ The basic idea behind clock gating is to insert logic gates (typically AND or OR
 
 
   However, clock gating isn't always straightforward. If implemented incorrectly, it can introduce additional delay into the circuit, impacting performance. Additionally, managing clock domains and ensuring proper synchronization between clock-gated and non-clock-gated regions can be complex.
+
+
+ ![validity2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/de436a30-cd38-4dc3-8b98-ad59a227a1e2)
 
 
 
@@ -749,6 +757,9 @@ TL veriog code
           $tot_dist[31:0] = $reset ? '0 : ($valid ? (>>1$tot_dist + $out) : $RETAIN);
 
 ```
+
+![distance](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3bfe12e6-2166-41fa-a623-825fb842a017)
+
 </details>
 
 
