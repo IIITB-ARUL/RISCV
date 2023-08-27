@@ -1238,7 +1238,14 @@ A testbench in Verilog is a simulation environment that is created to verify the
 		Pipelining the CPU
 	</summary>
 
+ ![watter flow logic](https://github.com/IIITB-ARUL/RISCV/assets/140998631/42f0ad85-cdca-42b6-b702-c9ced55aa0a5)
+
+
  **RISCV Waterfall Diagram**
+![watter flow logic1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/04f5491e-4ebb-4cc9-89ba-88b618fb2691)
+![watter flow logic2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/72f25585-61f9-478f-8c04-482b27f994be)
+![watter flow logic3](https://github.com/IIITB-ARUL/RISCV/assets/140998631/bc2fe0c6-c2fa-4607-991f-3f1dbf3036bb)
+
 
  
 </details>
@@ -1250,6 +1257,48 @@ A testbench in Verilog is a simulation environment that is created to verify the
 	 </summary>
  </details>
 
+
+**Branches to correct the branch target path**
+
+
+
+**Complete ALU**
+
+TL Verilog
+
+```
+//ALU
+         $result[31:0] = $is_addi  ? $src1_value +  $imm :
+                         $is_add   ? $src1_value +  $src2_value :
+                         $is_andi  ? $src1_value &  $imm :
+                         $is_ori   ? $src1_value |  $imm :
+                         $is_xori  ? $src1_value ^  $imm :
+                         $is_slli  ? $src1_value << $imm[5:0]:
+                         $is_srli  ? $src1_value >> $imm[5:0]:
+                         $is_and   ? $src1_value &  $src2_value:
+                         $is_or    ? $src1_value |  $src2_value:
+                         $is_xor   ? $src1_value ^  $src2_value:
+                         $is_sub   ? $src1_value -  $src2_value:
+                         $is_sll   ? $src1_value << $src2_value:
+                         $is_srl   ? $src1_value >> $src2_value:
+                         $is_sltu  ? $sltu_rslt[31:0]:
+                         $is_sltiu ? $sltiu_rslt[31:0]:
+                         $is_lui   ? {$imm[31:12], 12'b0}:
+                         $is_auipc ? $pc + $imm:
+                         $is_jal   ? $pc + 4:
+                         $is_jalr  ? $pc + 4:
+                         $is_srai  ? ({ {32{$src1_value[31]}} , $src1_value} >> $imm[4:0]) :
+                         $is_slt   ? (($src1_value[31] == $src2_value[31]) ? $sltu_rslt : {31'b0, $src1_value[31]}):
+                         $is_slti  ? (($src1_value[31] == $imm[31]) ? $sltiu_rslt : {31'b0, $src1_value[31]}) :
+                         $is_sra   ? ({ {32{$src1_value[31]}}, $src1_value} >> $src2_value[4:0]) :
+                         $is_load  ? $src1_value +  $imm :
+                         $is_s_instr ? $src1_value + $imm :
+                                    32'bx;
+         
+         $sltu_rslt[31:0]  = $src1_value <  $src2_value;
+         $sltiu_rslt[31:0] = $src1_value <  $imm;
+
+```
 <details>
 	<summary>
 		Load/Store Instructions and completing the RISCV CPU
@@ -1257,6 +1306,9 @@ A testbench in Verilog is a simulation environment that is created to verify the
 
 **Load/Store**
 
+
+![load2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3c9118a1-7672-4fc9-9bb6-c7ad956b3748)
+![load3](https://github.com/IIITB-ARUL/RISCV/assets/140998631/17244b18-aa3d-49d3-aff9-a6da616df410)
 
 
 ![load](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3becbe49-fb9b-4bf8-a6e0-842d67f8c094)
