@@ -908,6 +908,11 @@ Implementation of Decode on makerchip
 ![decode_2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/576bfa15-b71f-4829-849f-22add815b7e6)
 
 
+**Instruction Immediate decode**
+
+
+
+
 
 
 
