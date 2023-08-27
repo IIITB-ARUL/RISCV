@@ -874,9 +874,35 @@ The Branch unit handles conditional branching operations in the processor, inclu
 
 **Fetch**
 
+Pipeline structure of Fetch
+
+![fetch1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/4f39bf34-bdde-4ab6-b844-e301a40907d9)
+
+This implementation has some errors so we go for the below logic
+
+
+![fetch2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/9f08eb29-7239-4fb6-bcf8-c6a682a8e3db)
+
+
+Implementation of fetch on the makerchip
+
+
+
+![fetch3](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3f185861-0944-496f-a8a2-4afc08202982)
+
 
 
 **Decode**
+
+Pipelined structure of decode
+
+![decode](https://github.com/IIITB-ARUL/RISCV/assets/140998631/713e5f6c-1e95-4501-aa1e-1e1faa052224)
+
+
+Implementation of Decode on makerchip
+
+
+![decode_2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/576bfa15-b71f-4829-849f-22add815b7e6)
 
 
 
