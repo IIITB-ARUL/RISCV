@@ -1193,7 +1193,17 @@ Implementation on makerchip
 
 
 
+
+**Testbench**
+
+A testbench in Verilog is a simulation environment that is created to verify the correctness and functionality of a digital design (usually described in another Verilog module).
+
+
+
+
 </details>
+
+
 
 
 
