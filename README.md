@@ -827,6 +827,10 @@ TL verilog code
 
 
 
+![0](https://github.com/IIITB-ARUL/RISCV/assets/140998631/d95ecb61-134b-4a7b-a5f1-a5a12c7db179)
+
+
+
 **1.Program Counter (PC):**
 
 The Program Counter is a special register that keeps track of the memory address of the next instruction to be executed. During normal operation, it is automatically incremented after each instruction fetch, pointing to the address of the next instruction in memory.
@@ -861,6 +865,19 @@ The Branch unit handles conditional branching operations in the processor, inclu
 	<summary>
 		Fetch and Decode
 	</summary>
+
+
+**Program counter**
+
+![PC2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/edba7904-ccce-4e20-8022-9682d724f940)
+
+
+**Fetch**
+
+
+
+**Decode**
+
 
 
 
