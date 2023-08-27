@@ -1628,6 +1628,7 @@ Implementation on makerrchip
 ## Acknowledgement
 - Kunal Ghosh, VSD Corp. Pvt. Ltd.
 - Steve Hoover,Redwood Eda
+- Chatgpt
 - Alwin shaju,Colleague,IIIT B
 - Sai Sampath,Colleague,IIIT B
 - Kanish R,Colleague,IIIT B
