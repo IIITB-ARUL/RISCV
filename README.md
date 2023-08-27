@@ -931,8 +931,24 @@ Pipelined structure of decode
 
 
 
+
+<img width="1240" alt="Instruction-field" src="https://github.com/IIITB-ARUL/RISCV/assets/140998631/92f2293c-8c3b-4da6-9e06-6fcec2779cae">
+
+Implementation on makerchip
+
+![Instruction-field01](https://github.com/IIITB-ARUL/RISCV/assets/140998631/0f58a327-26f3-4334-9c2c-c5e67310bb0b)
+
+
+![Instruction-field2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/5c5895e4-f6f5-4457-a4d2-d967744b9a6f)
+
+
 **Individual Instruction decode**
 
+![instructionind1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/b1ed852d-517b-4706-b248-f28600bf829b)
+
+Implementation on makerchip
+
+![instructionind2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/91f108e6-3cfe-43f4-bfb1-63da0ef72c72)
 
 
 
