@@ -869,6 +869,9 @@ The Branch unit handles conditional branching operations in the processor, inclu
 
 **Program counter**
 
+
+The program counter (PC) is a fundamental component of a computer's central processing unit (CPU) that keeps track of the address of the next instruction to be fetched and executed. The PC logic manages the updating of the program counter as instructions are fetched and executed in a program.
+
 ![PC2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/edba7904-ccce-4e20-8022-9682d724f940)
 
 
