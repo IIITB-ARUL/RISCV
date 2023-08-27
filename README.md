@@ -902,15 +902,18 @@ Pipelined structure of decode
 ![decode](https://github.com/IIITB-ARUL/RISCV/assets/140998631/713e5f6c-1e95-4501-aa1e-1e1faa052224)
 
 
-Implementation of Decode on makerchip
 
 
-![decode_2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/576bfa15-b71f-4829-849f-22add815b7e6)
+
 
 
 **Instruction Immediate decode**
 
 
+<img width="1055" alt="Instructiondecode" src="https://github.com/IIITB-ARUL/RISCV/assets/140998631/1173c6e6-9b3f-4100-a21b-806d64f31549">
+
+
+![instructionimm-1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/96bcc329-2f18-47ca-a8db-d1c175c29f3a)
 
 
 
