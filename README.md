@@ -1256,6 +1256,7 @@ Pipeline Stall:
     
 When a hazard is detected, the pipeline might need to stall (pause) until the hazard is resolved. Stalls reduce the performance gain from pipelining.
 
+**Water flow logic diagram**
 
  ![watter flow logic](https://github.com/IIITB-ARUL/RISCV/assets/140998631/42f0ad85-cdca-42b6-b702-c9ced55aa0a5)
 
@@ -1267,6 +1268,11 @@ When a hazard is detected, the pipeline might need to stall (pause) until the ha
 
 
 **Lab Cycle RISCV**
+
+
+![51](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3a898617-7217-4d8b-a859-4b0467f1237c)
+![52](https://github.com/IIITB-ARUL/RISCV/assets/140998631/693d0903-bffc-4677-b65c-e1f3c97911e2)
+![53](https://github.com/IIITB-ARUL/RISCV/assets/140998631/79c80d92-a4fd-498f-82e4-52b3c119efe3)
 
  
 </details>
@@ -1619,6 +1625,13 @@ Implementation on makerrchip
 </details>
 
 
+## Acknowledgement
+- Kunal Ghosh, VSD Corp. Pvt. Ltd.
+- Steve Hoover,Redwood Eda
+- Alwin shaju,Colleague,IIIT B
+- Sai Sampath,Colleague,IIIT B
+- Kanish R,Colleague,IIIT B
+- Emil Jayanth Lal,Colleague,IIIT B
 
 
 ## References
@@ -1630,3 +1643,4 @@ Implementation on makerrchip
 - https://github.com/alwinshaju08/RISCV
 - https://github.com/mrdunker/RISC-V_based_MYTH_IIITB
 - https://github.com/KanishR1
+- https://github.com/NSampathIIITB/Introduction-to-RISC-V-Architecture.git
