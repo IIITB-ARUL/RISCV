@@ -1231,9 +1231,26 @@ A testbench in Verilog is a simulation environment that is created to verify the
 
 
 
+## Days 5
 
- 
+<details>
+	<summary>
+		Pipelining the CPU
+	</summary>
+</details>
 
+
+ <details>
+	 <summary>
+		 Solutions to pipeline hazards
+	 </summary>
+ </details>
+
+<details>
+	<summary>
+		Load/Store Instructions and completing the RISCV CPU
+	</summary>
+</details>
 
 
 
