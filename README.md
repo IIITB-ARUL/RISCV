@@ -818,6 +818,20 @@ TL verilog code
 
 ![value memory](https://github.com/IIITB-ARUL/RISCV/assets/140998631/02d2b986-3d1d-475f-a9b9-b4fd993049e4)
 
+<details>
+	<summary>
+		Wrap-up
+	</summary>
+
+
+ **Convay's Game of life**
+
+
+
+ **Pythagorean theorem**
+ 
+</details>
+
 </details>
 
 ## Day 4
