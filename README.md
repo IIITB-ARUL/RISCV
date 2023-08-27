@@ -1238,6 +1238,25 @@ A testbench in Verilog is a simulation environment that is created to verify the
 		Pipelining the CPU
 	</summary>
 
+ **Hazards**
+
+Data Hazards: 
+    
+ These occur when an instruction depends on the result of a previous instruction that hasn't completed yet. For example, if one instruction writes to a register and the next instruction reads from it, the second instruction has to wait for the first one to complete.
+
+Control Hazards: 
+    
+These happen when the flow of execution changes due to branches or jumps. If the pipeline has already fetched subsequent instructions based on a branch that takes a different path, those fetched instructions may need to be discarded, leading to inefficiencies.
+
+Structural Hazards: 
+    
+These occur when multiple instructions require the same hardware resource at the same time. For instance, if two instructions want to access memory simultaneously, there might be a conflict.
+
+Pipeline Stall: 
+    
+When a hazard is detected, the pipeline might need to stall (pause) until the hazard is resolved. Stalls reduce the performance gain from pipelining.
+
+
  ![watter flow logic](https://github.com/IIITB-ARUL/RISCV/assets/140998631/42f0ad85-cdca-42b6-b702-c9ced55aa0a5)
 
 
@@ -1247,6 +1266,8 @@ A testbench in Verilog is a simulation environment that is created to verify the
 ![watter flow logic3](https://github.com/IIITB-ARUL/RISCV/assets/140998631/bc2fe0c6-c2fa-4607-991f-3f1dbf3036bb)
 
 
+**Lab Cycle RISCV**
+
  
 </details>
 
@@ -1255,10 +1276,12 @@ A testbench in Verilog is a simulation environment that is created to verify the
 	 <summary>
 		 Solutions to pipeline hazards
 	 </summary>
- </details>
+ 
 
 
 **Branches to correct the branch target path**
+
+![branchtocorrect](https://github.com/IIITB-ARUL/RISCV/assets/140998631/c0c0104b-f618-4735-ac73-d80a9e2c6766)
 
 
 
@@ -1299,6 +1322,8 @@ TL Verilog
          $sltiu_rslt[31:0] = $src1_value <  $imm;
 
 ```
+
+</details>
 <details>
 	<summary>
 		Load/Store Instructions and completing the RISCV CPU
