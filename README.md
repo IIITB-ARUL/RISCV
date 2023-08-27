@@ -1237,6 +1237,10 @@ A testbench in Verilog is a simulation environment that is created to verify the
 	<summary>
 		Pipelining the CPU
 	</summary>
+
+ **RISCV Waterfall Diagram**
+
+ 
 </details>
 
 
@@ -1250,6 +1254,10 @@ A testbench in Verilog is a simulation environment that is created to verify the
 	<summary>
 		Load/Store Instructions and completing the RISCV CPU
 	</summary>
+
+
+
+ 
 </details>
 
 
