@@ -818,6 +818,8 @@ TL verilog code
 
 ![value memory](https://github.com/IIITB-ARUL/RISCV/assets/140998631/02d2b986-3d1d-475f-a9b9-b4fd993049e4)
 
+</details>
+
 ## Day 4
 
 
@@ -950,6 +952,7 @@ Implementation on makerchip
 
 ![instructionind2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/91f108e6-3cfe-43f4-bfb1-63da0ef72c72)
 
+</details>
 
 <details>
 	<summary>
@@ -1199,7 +1202,7 @@ Implementation on makerchip
 A testbench in Verilog is a simulation environment that is created to verify the correctness and functionality of a digital design (usually described in another Verilog module).
 
 
-
+![Testbench](https://github.com/IIITB-ARUL/RISCV/assets/140998631/97be42fb-cc36-4974-be4b-dc0a96786447)
 
 </details>
 
@@ -1208,7 +1211,7 @@ A testbench in Verilog is a simulation environment that is created to verify the
 
 
  
-</details>
+
 
 
 
