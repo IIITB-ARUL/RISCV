@@ -1257,6 +1257,16 @@ A testbench in Verilog is a simulation environment that is created to verify the
 
 **Load/Store**
 
+
+
+![load](https://github.com/IIITB-ARUL/RISCV/assets/140998631/3becbe49-fb9b-4bf8-a6e0-842d67f8c094)
+
+Implementation on makerrchip
+
+![load1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/dc6e3cdc-c8e2-4d3a-a92a-e37b5ad53368)
+
+
+
 ```
  \m4_TLV_version 1d: tl-x.org
 \SV
