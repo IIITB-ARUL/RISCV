@@ -820,7 +820,55 @@ TL verilog code
 
 ## Day 4
 
+
+<details> <summary>
+	Micro-architecture Of Single Cycle RISC-V CPU
+</summary>
+
+
+
+**1.Program Counter (PC):**
+
+The Program Counter is a special register that keeps track of the memory address of the next instruction to be executed. During normal operation, it is automatically incremented after each instruction fetch, pointing to the address of the next instruction in memory.
+
+**2.Imem-Rd (Instruction Memory Read):** 
+
+This block is responsible for fetching instructions from memory (typically from RAM or cache) based on the address provided by the Program Counter.The fetched instruction is sent to the Instruction Decoder for further processing.
+
+**3.Instruction Decoder:**
+
+The Instruction Decoder is responsible for interpreting the fetched instruction. It determines the operation to be performed, the operands involved, and the control signals required for subsequent stages.It decodes the instruction opcode and generates control signals to control other components of the processor accordingly.
+
+**4.Register File Read:**
+
+In most microprocessors, a Register File is used to store a set of general-purpose registers. The Register File Read stage retrieves the values from registers specified by the source operand fields in the instruction. These values are typically sent to the ALU for computation or used in other operations.
+
+**5.Arithmetic Logic Unit (ALU):**
+
+The Arithmetic Logic Unit is the component responsible for performing arithmetic and logical operations on data. It takes input from the Register File Read stage and performs operations such as addition, subtraction, multiplication, division, bitwise AND/OR/XOR, and more, depending on the instruction.
+
+**6.Register File Write:**
+
+After the ALU or other processing stages have computed a result, the Register File Write stage writes the result back to a destination register specified by the instruction.This stage updates the register values, making the results available for future instructions or for reading by the CPU.
+
+**7.Branch:**
+
+The Branch unit handles conditional branching operations in the processor, including conditional jumps (branches) based on the evaluation of certain conditions.It calculates the target address for a branch instruction and determines whether the branch should be taken or not, typically based on the result of a comparison operation.
+
 </details>
+
+<details>
+	<summary>
+		Fetch and Decode
+	</summary>
+
+
+
+
+ 
+</details>
+
+
 
 
 ## References
