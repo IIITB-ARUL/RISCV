@@ -903,6 +903,7 @@ Pipelined structure of decode
 
 
 
+![Instruction-2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/88c10a5a-203c-4f0b-a635-e822300c6783)
 
 
 
@@ -915,6 +916,22 @@ Pipelined structure of decode
 
 ![instructionimm-1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/96bcc329-2f18-47ca-a8db-d1c175c29f3a)
 
+
+
+**Instruction decode**
+
+
+<img width="1156" alt="Instructiondecodenew" src="https://github.com/IIITB-ARUL/RISCV/assets/140998631/efb156c5-47bf-49db-bba7-46ef583d3222">
+
+
+![Instructiondecodenew-1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/a09b3ac6-9d00-4f16-9162-55144630a131)
+
+
+**Instruction field decode**
+
+
+
+**Individual Instruction decode**
 
 
 
