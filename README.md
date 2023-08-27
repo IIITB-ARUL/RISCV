@@ -818,6 +818,9 @@ TL verilog code
 
 ![value memory](https://github.com/IIITB-ARUL/RISCV/assets/140998631/02d2b986-3d1d-475f-a9b9-b4fd993049e4)
 
+</details>
+
+
 <details>
 	<summary>
 		Wrap-up
@@ -826,11 +829,16 @@ TL verilog code
 
  **Convay's Game of life**
 
+![Convays game](https://github.com/IIITB-ARUL/RISCV/assets/140998631/5a6e74de-5fc4-4585-8dc6-b73dd5c7ff96)
 
 
  **Pythagorean theorem**
+
+ ![Pythagoreantheorem](https://github.com/IIITB-ARUL/RISCV/assets/140998631/a5bda9bd-8084-4def-96d1-8d439c4811c0)
+
+![Pythagoreantheorem1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/0349b36f-272c-46f1-a032-229d06f8bac1)
+
  
-</details>
 
 </details>
 
