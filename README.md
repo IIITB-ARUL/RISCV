@@ -961,15 +961,39 @@ Implementation on makerchip
  **Lab Register file read**
 
 
+![Registerfile](https://github.com/IIITB-ARUL/RISCV/assets/140998631/e17d7b9d-3f1f-4f19-bda4-a6822c0f1fdb)
+![Registerfile01](https://github.com/IIITB-ARUL/RISCV/assets/140998631/7e159518-27f3-4052-b8e4-6d59f830cf1a)
+![Registerfile2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/d29ec90f-6e04-4e8e-99a4-a7ef30c83a9c)
+
+
 
  **Lab ALU**
 
 
+![ALU01](https://github.com/IIITB-ARUL/RISCV/assets/140998631/c1a2c724-dbe3-4ca1-99e0-d75240558515)
+
+![ALU2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/c7f0c060-7c90-41dc-8b53-3e5648a109ba)
+
+
  **Lab Register file write**
 
+![Registerfilewrite](https://github.com/IIITB-ARUL/RISCV/assets/140998631/9f750f3a-2f9f-4f4b-bce0-89ff5d7c9613)
+
+![Registerfilewrite1](https://github.com/IIITB-ARUL/RISCV/assets/140998631/02dab6e9-eda4-4a5e-9d7c-2fd989cf230b)
+
+
+**Arrays**
+
+
+![Arrays](https://github.com/IIITB-ARUL/RISCV/assets/140998631/d2d82f04-f9d7-4233-a5d0-1ce651c8a52e)
+
+![Arrays01](https://github.com/IIITB-ARUL/RISCV/assets/140998631/44534b20-eb25-401d-82c8-031b6ab35cc3)
 
 
  **Lab Branches**
+
+
+![branches01](https://github.com/IIITB-ARUL/RISCV/assets/140998631/cfd9c5b5-5417-429b-bb4c-42038724327e)
 
 
 
@@ -1164,6 +1188,9 @@ Implementation on makerchip
 \SV
    endmodule
 ```
+
+![branches2](https://github.com/IIITB-ARUL/RISCV/assets/140998631/4b105585-dbdc-4e5a-aa22-d96bd5a90f79)
+
 
 
 </details>
